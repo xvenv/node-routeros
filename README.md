@@ -1,9 +1,3 @@
-# Discontinued
-
-***I worked on this project in my spare time, but unfortunately I no longer work with mikrotik devices and don't have the free time anymore, so consider it as discontinued. Feel free to fork this project and create your own spin.***
-
-# Description
-
 This is a Mikrotik Routerboard API written in Typescript for nodejs, can be either used with plain javascript or imported on typescript projects.
 
 This library will handle the API in a more lowerlevel way, for a simpler to use interface I recommend my [`routeros-client`](https://github.com/aluisiora/routeros-client) for a more "object-oriented" API, which wraps this API. It has a very rich documentation, so please check it out.

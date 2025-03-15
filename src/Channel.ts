@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 import { Connector } from './connector/Connector';
 import { RosException } from './RosException';
-import * as debug from 'debug';
+import debug from 'debug';
 import { IRosGenericResponse } from './IRosGenericResponse';
 
 const info = debug('routeros-api:channel:info');
