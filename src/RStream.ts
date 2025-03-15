@@ -258,7 +258,7 @@ export class RStream extends EventEmitter {
         let interval = 2000;
         if (intervalParam) {
             const val = intervalParam.split('=')[2];
-            interval = parseInt(val, null) * 1000;
+            interval = parseInt(val, 10) * 1000;
         }
 
         this.debounceSendingEmptyData = debounce(() => {
